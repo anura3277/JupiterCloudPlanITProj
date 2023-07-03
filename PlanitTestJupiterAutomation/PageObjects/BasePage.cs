@@ -52,6 +52,7 @@ namespace PlanitTestJupiterAutomation.PageObjects
                     {
                         driver.WaitForPageLoad();
                         driver.FindElement(cartPage).Click();
+                        //Need an impairment to wait until items are added
                         Thread.Sleep(5000);
                         
                     }

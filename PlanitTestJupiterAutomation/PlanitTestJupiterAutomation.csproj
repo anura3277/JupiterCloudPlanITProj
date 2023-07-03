@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PlanitTestJupiterAutomation.Core\PlanitTestJupiterAutomation.Driver.csproj" />
+    <ProjectReference Include="..\PlanitTestJupiterAutomation.Driver\PlanitTestJupiterAutomation.Driver.csproj" />
   </ItemGroup>
 
   <ItemGroup>

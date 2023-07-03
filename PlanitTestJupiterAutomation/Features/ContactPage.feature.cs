@@ -74,14 +74,14 @@ namespace PlanitTestJupiterAutomation.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Test 1_Verify Contact page error messages")]
+        [NUnit.Framework.DescriptionAttribute("user can verify Contact page error messages")]
         [NUnit.Framework.CategoryAttribute("Samoke")]
-        public virtual void Test1_VerifyContactPageErrorMessages()
+        public virtual void UserCanVerifyContactPageErrorMessages()
         {
             string[] tagsOfScenario = new string[] {
                     "Samoke"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Test 1_Verify Contact page error messages", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("user can verify Contact page error messages", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 8
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -137,14 +137,14 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Test 2_Verify Contact page submit messages")]
+        [NUnit.Framework.DescriptionAttribute("user can verify Contact page submit messages")]
         [NUnit.Framework.CategoryAttribute("Regression")]
         [NUnit.Framework.TestCaseAttribute("Anura", "", "Anura@gmail.com", "", "Test Message for Anura", null)]
         [NUnit.Framework.TestCaseAttribute("Sam", "", "Sam@gmail.com", "", "Test Message for Sam", null)]
         [NUnit.Framework.TestCaseAttribute("Luke", "", "Luke@gmail.com", "", "Test Message for Luke", null)]
         [NUnit.Framework.TestCaseAttribute("Jude", "", "Jude@gmail.com", "", "Test Message for Jude", null)]
         [NUnit.Framework.TestCaseAttribute("Manu", "", "Manu@gmail.com", "", "Test Message for Manu", null)]
-        public virtual void Test2_VerifyContactPageSubmitMessages(string forename, string surname, string email, string telephone, string message, string[] exampleTags)
+        public virtual void UserCanVerifyContactPageSubmitMessages(string forename, string surname, string email, string telephone, string message, string[] exampleTags)
         {
             string[] @__tags = new string[] {
                     "Regression"};
@@ -159,7 +159,7 @@ this.ScenarioInitialize(scenarioInfo);
             argumentsOfScenario.Add("Email", email);
             argumentsOfScenario.Add("Telephone", telephone);
             argumentsOfScenario.Add("Message", message);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Test 2_Verify Contact page submit messages", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("user can verify Contact page submit messages", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 19
 this.ScenarioInitialize(scenarioInfo);
 #line hidden

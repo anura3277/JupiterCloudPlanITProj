@@ -22,19 +22,19 @@ namespace PlanitTestJupiterAutomation.StepDefinitions
             cartPage = new CartPage(driver);
         }
 
-        [StepDefinition(@"I go to Jupiter home page")]
-        public void GivenIGoToJupiterHomePage()
+        [StepDefinition(@"I am in the Jupiter home page")]
+        public void GivenIGoTotheJupiterHomePage()
         {
             homePage.Load();
         }
 
-        [StepDefinition(@"I go to Shop page")]
+        [StepDefinition(@"I went to the Shop page")]
         public void GivenIGoToShopPage()
         {
             homePage.GoToPage("Shop");
         }
 
-        [StepDefinition(@"I buy below items")]
+        [StepDefinition(@"I bought below items")]
         public void GivenIBuyBelowItems(Table itemTable)
         {
 
@@ -48,14 +48,13 @@ namespace PlanitTestJupiterAutomation.StepDefinitions
                         shopPage.BuyItem(item, count);
                     }            
         }
-        [StepDefinition(@"I open the Cart I can see Items are added")]
+        [StepDefinition(@"I open the Cart")]
         public void WhenIOpenTheCartICanSeeItemsAreAdded()
         {
-            
             homePage.GoToPage("Cart");           
         }
 
-        [StepDefinition(@"I verify subtotal, price for each products on Shop page and Cart are correct")]
+        [StepDefinition(@"the subtotal, item price for each products is correct")]
         public void ThenIVerifySubtotalForEachProductIsCorrect()
         {
             var itemListInCart = cartPage.GetCartItems();
@@ -71,7 +70,7 @@ namespace PlanitTestJupiterAutomation.StepDefinitions
             }
         }
 
-        [StepDefinition(@"I verify Total on Shop page and Cart are correct")]
+        [StepDefinition(@"the cart Total is correct")]
         public void ThenIVerifyTotalOnShopPageAndCartAreCorrect()
         {
             Assert.That(cartPage.cartSubTotalSum(), Is.EqualTo(shopPage.shopSubTotalSum()), message:  " Total Price on Shop page and Cart page are different");

@@ -5,7 +5,7 @@ I want to provide message to Jupiter Toys shop
 By using contact page
 
 @Samoke
-Scenario: Test 1_Verify Contact page error messages
+Scenario: user can verify Contact page error messages
 	Given I load Jupiter home page 
 	And I navigate to Contact page
 	When I click "Submit" button on Contact Page
@@ -16,7 +16,7 @@ Scenario: Test 1_Verify Contact page error messages
 	And I verify the error messages are gone
 
 @Regression
-Scenario: Test 2_Verify Contact page submit messages
+Scenario: user can verify Contact page submit messages
 	Given I load Jupiter home page 
 	And I navigate to Contact page
 	When I enter values to <Forename>,<Email>,<Message> fields
