@@ -1,5 +1,7 @@
-Project name:PlanitTestJupiterAutomation
+# Project name: Planit Test Jupiter Automation
 Project background: This project is done for automation some test scenarios for "https://jupiter.cloud.planittesting.com/#/" using C# Selenium and Nunit.
+
+## Dependencies
 
 1.Before getting started, makesure that you have following:
 
@@ -14,17 +16,16 @@ Project background: This project is done for automation some test scenarios for 
 
 5.Build the solution to ensure all dependencies are resolved.
 
-Configuration
+## Configuration
 The project may requires configuration before running the tests. Open the appSettings.json file located in the project's root directory and update the following settings:
 
 Url: The base URL of the application under test.
 Browser: The browser to be used for the tests (e.g., Chrome, Firefox, etc.) Currently done for Chrome and Firefox only.
 
-Writing Tests
+## Writing Tests
 The tests are written using the Specflow frature file and BDD GIVEN WHEN THEN format. Feature files are located in "Features" directory in Project file. To add a new test, create a new Feature file or add a new BDD scenario to an existing feature.
 
 
-Running Tests
+## Running Tests
 To run the tests, use the test explorer in IDE.
 
-Thanks.
