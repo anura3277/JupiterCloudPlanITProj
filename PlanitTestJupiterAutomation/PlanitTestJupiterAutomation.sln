@@ -5,7 +5,7 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlanitTestJupiterAutomation", "PlanitTestJupiterAutomation.csproj", "{3CB4E832-2BEB-4791-AAD2-DC0DB5757FFD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlanitTestJupiterAutomation.Driver", "..\PlanitTestJupiterAutomation.Core\PlanitTestJupiterAutomation.Driver.csproj", "{2823EFBA-F79C-4883-BBCA-2CFD428D2D54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlanitTestJupiterAutomation.Driver", "..\PlanitTestJupiterAutomation.Driver\PlanitTestJupiterAutomation.Driver.csproj", "{B6FEEE27-75F1-4698-8174-EADDE7C1C793}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{3CB4E832-2BEB-4791-AAD2-DC0DB5757FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CB4E832-2BEB-4791-AAD2-DC0DB5757FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CB4E832-2BEB-4791-AAD2-DC0DB5757FFD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2823EFBA-F79C-4883-BBCA-2CFD428D2D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2823EFBA-F79C-4883-BBCA-2CFD428D2D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2823EFBA-F79C-4883-BBCA-2CFD428D2D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2823EFBA-F79C-4883-BBCA-2CFD428D2D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6FEEE27-75F1-4698-8174-EADDE7C1C793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FEEE27-75F1-4698-8174-EADDE7C1C793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FEEE27-75F1-4698-8174-EADDE7C1C793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FEEE27-75F1-4698-8174-EADDE7C1C793}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
